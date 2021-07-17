@@ -1,0 +1,19 @@
+GET https://sky-cuvette.herokuapp.com/get-jobs
+
+GET https://sky-cuvette.herokuapp.com/get-job/:_id
+
+POST https://sky-cuvette.herokuapp.com/add-job
+Content-Type:application/json
+
+{
+	title:String,
+	location:String,
+	description:String,
+	skills:[String],
+	mode:[String],
+	isRemote:'true' or 'false',
+	stipendRange:String,
+	startDate:Date,
+	duration:Number,
+}
+

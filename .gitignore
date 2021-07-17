@@ -1,0 +1,15 @@
+/client/node_modules
+/server/node_modules
+
+/client/.env
+/server/.env
+
+/client/.firebase
+/client/build
+/client/.firebaserc
+/client/firebase.json
+
+/client/.gitignore
+/server/.gitignore
+
+/client/README.md
